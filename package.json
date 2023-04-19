@@ -1,0 +1,15 @@
+{
+  "name": "cosmjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/cli": "^0.30.1"
+  },
+  "type": "module"
+}

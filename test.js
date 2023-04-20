@@ -5,7 +5,7 @@ import { StargateClient, SigningStargateClient } from "@cosmjs/stargate";
 	const toAddress = "your recipient address here";
 	const rpcEndpoint = "your rpc endpoint here";
 	const mnemonic = "your mnemonic here";
-	const wallet = await Secp256k1HdWallet.fromMnemonic(mnemonic, { prefix: "rizon" });
+	const wallet = await Secp256k1HdWallet.fromMnemonic(mnemonic, { prefix: "cosmos" });
 	console.log(wallet);
 	const [{ address, pubkey }] = await wallet.getAccounts();
 	console.log(address);
